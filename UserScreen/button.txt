@@ -1,0 +1,23 @@
+floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
+floatingActionButton: Padding(
+  padding: const EdgeInsets.all(8.0),
+  child: Row(
+    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+    children: <Widget>[
+      FloatingActionButton(
+        onPressed: () {
+          
+            
+             },  
+        child: Icon(Icons.add),
+      ),
+      FloatingActionButton (
+         onPressed: () {
+           {changeScreen(selectedScreen: AddUser.screenName);}
+             
+         },
+        child: Icon(Icons.account_circle_outlined),
+      )
+    ],
+  ),
+)
